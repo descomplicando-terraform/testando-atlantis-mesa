@@ -4,7 +4,6 @@ projects:
   - name: testando-atlantis
     dir: iac/terraform/stg
     workspace: default
-    terraform_version: 1.16.0
     autoplan:
       enabled: true
       when_modified:
